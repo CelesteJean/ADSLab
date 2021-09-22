@@ -10,7 +10,7 @@ class MyfirstController extends Controller
     {
         $sum = 5+2;
          return view('resultspage', [ 'result' => $sum,
-            'title' => "Sample page title"
-    ]);
+                $sum = 5+2;
+        return view('resultspage', [ 'result' => $sum]);
     }
 }
