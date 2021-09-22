@@ -8,9 +8,6 @@ class MyfirstController extends Controller
 {
         public function index ()
     {
-        $sum = 5+2;
-         return view('resultspage', [ 'result' => $sum,
-                $sum = 5+2;
-        return view('resultspage', [ 'result' => $sum]);
+      return view ("resultspage");
     }
 }
