@@ -12,7 +12,9 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+    }); 
+Route:: get ('/numbers', function(){
 
-Route::get('/', function () {
-    return 1 + 2;
+        return "[1, 2, 3, 4, 5, 6, 7, 8, 9]";
+    }); 
 }); 
