@@ -11,10 +11,14 @@ use Illuminate\Support\Facades\Route;
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
 |
-*/
-    }); 
-Route:: get ('/numbers', function(){
-
-        return "[1, 2, 3, 4, 5, 6, 7, 8, 9]";
-    }); 
+*/  $num2 =1;
+        $result =$num1 - $num2;
+        return " The difference of ".$num1." and ".$num2." is ".$result;
+      }); 
+Route:: get ('/product', function(){
+        $num1 =3;
+        $num2 =2;
+        $result =$num1 * $num2;
+        return " The product of ".$num1." and ".$num2." is ".$result;
+    });  
 }); 
